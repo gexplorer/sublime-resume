@@ -1,0 +1,38 @@
+body{
+	font-family: monospace;
+	background-color: #272822;
+	color: #F8F8F8;
+}
+
+div{
+	margin-left: 20px;
+}
+
+div span{
+	display: inline-block;
+	margin: 0px 0px;
+	color: #EB2648;
+}
+
+div span:first-child{
+}
+
+span.attr{
+	color: white;
+}
+
+span.attr .name{
+	color: #98de2e;
+}
+
+span.attr .value{
+	color: #e0c54e;
+}
+
+div span span{
+	margin: 0px;
+	color: #F8F8F8;
+}
+
+div span:last-child{
+}
